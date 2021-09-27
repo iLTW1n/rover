@@ -1,0 +1,31 @@
+.component-card {
+  background-color: #FFF;
+  border-radius: 4px;
+  overflow: hidden;
+
+  &__image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+  }
+
+  &__description {
+    padding: 16px;
+  }
+
+  &__detail {
+    margin-bottom: 4px;
+    color: #444444;
+
+    span {
+      font-weight: 600;
+      display: inline-block;
+      width: 100px;
+      color: #000;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

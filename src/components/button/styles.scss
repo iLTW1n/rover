@@ -1,0 +1,16 @@
+.component-button {
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  color: #FFF;
+  background-color: #2684FF;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+
+  &:disabled {
+    opacity: .8;
+    cursor: not-allowed;
+  }
+}
