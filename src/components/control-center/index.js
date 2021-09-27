@@ -33,7 +33,7 @@ const ControlCenter = ({ onChange }) => {
 
   const handleRoverChange = (rover) => {
     setRover(rover);
-    setCamera(cameras[0]);
+    setCamera(null);
   };
 
   const handleSearchClick = () => {
